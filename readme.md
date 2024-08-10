@@ -16,7 +16,7 @@ programa deberá de indicar que es un número impar, pero si se trata del númer
 el programa deberá indicar que se trata de un número par. De 10 números enteros,
 se debe determinar cuáles son pares y cuáles son impares.
 
-### 3. Calculadora de números positivos y negativos
+### 3. Calculadora número al revés
 - El último programa se llamará Al Revés, su objetivo es que el usuario ingrese un
 número de 4 dígitos y que sea un número entero, y este programa se encargará de
 regresar los número al revés o invertidos. Por ejemplo, si se ingresa el número
