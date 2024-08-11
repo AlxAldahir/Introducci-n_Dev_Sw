@@ -4,13 +4,12 @@ Algoritmo NumeroAlReves
     Escribir "Ingrese un número entero de 4 dígitos:"
     Leer num
 	
-    d1 <- num MOD 10
-    num <- trunc(num/10) 
-    d2 <- num MOD 10
-    num <- trunc(num/10)
-    d3 <- num MOD 10
-    num <- trunc(num/10)
-    d4 <- num MOD 10
+	numInvertido <- 0
+    Para i <- 1 Hasta 4 Con Paso 1 Hacer
+        digito <- num % 10
+        numInvertido <- numInvertido * 10 + digito
+        num <- trunc(num / 10)
+    FinPara
 	
     Escribir "El número al revés es: ", d1, d2, d3, d4
 Fin Algoritmo
