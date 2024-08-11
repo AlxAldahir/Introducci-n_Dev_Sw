@@ -6,7 +6,7 @@ int main() {
     int digito; //Variable para almacenar el dígito
 
     //Solicitud de datos al usuario
-    printf("Ingrese un número entero de 4 dígitos:\n");
+    printf("Ingrese un numero entero de 4 digitos:\n");
     scanf("%d", &num); //Lectura de datos
 
     //Ciclo for para invertir el número
@@ -17,7 +17,7 @@ int main() {
     }
 
     //Imprime el número invertido
-    printf("El número al revés es: %d\n", numInvertido);
+    printf("El numero al reves es: %d\n", numInvertido);
 
     return 0;
 }

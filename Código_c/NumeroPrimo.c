@@ -31,8 +31,7 @@ int main() {
             }
             i++;//Incremento de la variable i (contador)
         }
-
-        //Si la variable esPrimo es verdadera, el número es primo
+          //Si la variable esPrimo es verdadera, el número es primo
         if (esPrimo) {
             printf("El numero %d es primo\n", num);
         }

@@ -7,7 +7,7 @@ int main() {
     //Ciclo for para solicitar 10 números al usuario
     for (i = 1; i <= 10; i++) {
         //Solicitud de datos al usuario
-        printf("Ingrese %d° numero:\n", i);
+        printf("Ingrese %do numero:\n", i);
         //Lectura de datos
         scanf("%d", &num);
 
